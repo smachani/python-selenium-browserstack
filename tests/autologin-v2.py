@@ -10,8 +10,8 @@ import time
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 
-USERNAME = 'hero@swarajstudios.com'
-PASSWORD = 'cL@P1dd$5xqQ0A'
+USERNAME = ''
+PASSWORD = ''
 
 BROWSERSTACK_URL = 'https://sridharmachani_cVTeOt:vEKxcBixzrsra51FAR2B@hub-cloud.browserstack.com/wd/hub'
 
