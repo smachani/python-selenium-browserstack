@@ -21,10 +21,10 @@ bstack_options = {
     "projectName" : "BStack Project Name: " + projectName,
     "localIdentifier": localIdentifier,
     "seleniumVersion" : "4.0.0",
-    "userName": userName,
+    "userName": username,
     "accessKey": accessKey
 }
-options = webdriver.ChromeOptions()
+options = ChromeOptions()
 options.set_capability('bstack:options', bstack_options)
 driver = webdriver.Remote(
     command_executor="https://hub.browserstack.com/wd/hub",

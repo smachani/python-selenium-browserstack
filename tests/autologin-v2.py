@@ -30,7 +30,7 @@ desired_cap = {
 
 options = webdriver.ChromeOptions()
 options.add_argument("--start-maximized")
-driver = webdriver.Chrome('"/Users/ssinc/Downloads/chromedriver_mac_arm64/chromedriver', chrome_options=options)
+driver = webdriver.Chrome('/Users/ssinc/Downloads/chromedriver_mac_arm64/chromedriver', chrome_options=options)
 action = ActionChains(driver)
 time.sleep(1)
 
