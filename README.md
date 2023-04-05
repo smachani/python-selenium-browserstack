@@ -1,5 +1,7 @@
 # python-selenium-browserstack
 Run python tests on browserstack using the SDK.
+# Edited by Sridhar Machani
+# 4 Apr 2023, 5:55 PM IST
 
 ## Prerequisite
 ```
