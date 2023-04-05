@@ -2,6 +2,11 @@ import json
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 
+# set your Access Key
+BROWSERSTACK_USERNAME = os.environ.get("BROWSERSTACK_USERNAME") or "sridharmachani_cVTeOt"
+BROWSERSTACK_ACCESS_KEY = os.environ.get("BROWSERSTACK_ACCESS_KEY") or "vEKxcBixzrsra51FAR2B"
+
+
 options = ChromeOptions()
 
 # The webdriver management will be handled by the browserstack-sdk
